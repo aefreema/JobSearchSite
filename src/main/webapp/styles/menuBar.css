@@ -1,0 +1,99 @@
+/*
+    Created By: Ashley Freeman
+    Original Date: 12/28/2016
+    Last Update: 1/6/2017
+ */
+ 
+#logo {
+    float: left; 
+}
+#logo img {
+    width: 10em;
+    height: 3.5em;
+}
+ 
+#header-bar {
+    background-color: #00A2E8;
+    font-size: 1.5em;
+}
+#header-bar ul {
+    position: absolute;
+    margin-left: 35%;
+    padding: 0;
+}
+#header-bar li {
+    display: inline-block;
+    height: auto;
+    margin: 1.25em;
+    text-align: center;
+}
+
+
+#header-bar li a {
+    display: block;
+    color: white;
+}
+
+.accountAccess {
+    box-sizing: border-box;
+    float: right;
+    margin: 1.25em;
+    color: white;
+    text-align: center;
+}
+
+.accountAccess a {
+    color: white;
+}
+
+#footerBar {
+    background-color: black;
+}
+
+#footerMenu {
+    display: inline-block;
+    margin-top: 1em;
+}
+
+#footerBar ul {
+    position: relative;
+    height: 100%;
+}
+
+#footerBar a, p {
+    color: lightgray;
+    font-size: 0.625em;
+}
+
+#footerBar p {
+    text-align: center;
+}
+ 
+#contact {
+    display: inline-block;
+    float: right;
+    margin-right: 2em;
+}
+
+#contact h3 {
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    color: #00A2E8;
+}
+
+#contact img {
+    width: 3em;
+    height: 3em;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+a {
+    text-decoration: none;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    text-align: center;
+}
