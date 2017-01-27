@@ -1,11 +1,11 @@
 <%-- 
-    Basic Job Search Website
+    Basic Job Se0arch Website
 
-   Company about page.
+    Created By: Ashley Freeman
+    Original Date: 1/1/2017
+    Last Update: 1/27/2017
 
-   Created By: Ashley Freeman
-   Original Date: 1/1/2017
-   Last Update: 1/6/2017
+    Company about page.
 --%>
 
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
@@ -15,12 +15,13 @@
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <link href="styles/menuBar.css" rel="stylesheet" type="text/css" />
         <link href="styles/pageWrap.css" rel="stylesheet" type="text/css" />
+        <link href="styes/about.css" rel="stylesheet" type="text/css" />
         <title>About</title>
     </head>
     <body>
         <%@include file="includes/header.jsp" %>
         
-        <div class="container">
+        <div id="container">
             <div id="about">
                 <p>This is a fake company, started in 2016, with fake job postings. 
                     The creator is a graduate for CSU East Bay in Hayward, 

@@ -1,0 +1,33 @@
+/*
+   Created By: Ashley Freeman
+   Original Date: 1/27/2017
+   Last Update: 1/27/2017
+
+   Search results page content styling
+*/
+
+body {
+    background-color: azure;
+}
+
+#container {
+    width: 100%;
+}
+
+#resultsPage {
+    min-height: inherit;
+    width: 100%;
+    height: inherit;
+}
+
+#advancedSearch {
+    float: left;
+    min-height: inherit;
+    width: 25%;
+}
+
+#listResults {
+    float: right;
+    min-height: inherit;
+    width: 75%;
+}

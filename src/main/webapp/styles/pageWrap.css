@@ -1,7 +1,7 @@
 /*
    Created By: Ashley Freeman
    Original Date: 1/6/2017
-   Last Update: 1/6/2017
+   Last Update: 1/27/2017
 
    Page layout positioning
 */
@@ -13,33 +13,27 @@ body, html {
     padding: 0;
 }
 
-#header-bar {
-    position: fixed;
-    z-index: 100;
-    top: 0;
-    left: 0;
-    margin: 0;
-    padding: 0;
-    width: 100%;
-    display: block;
-    height: 3.5em;
+#headerWrapper {
+    height: 85px;
 }
 
-.container {
-    position: relative;
-    display: block;
-    width: 75%;
-    margin: auto;
-    height: 40em;
-    padding-top: 3.5em;
-    overflow: hidden;
-    box-sizing: border-box;
+#headerBar {
+    position: fixed;
+    z-index: 100;
+    width: 100%;
+    height: 85px;
+    top: 0;
+    margin: 0;
+    padding: 0;
+}
+
+#container {
+    width: 100%;
+    min-height: 640px;
 }
 
 #footerBar {
-    positon: absolute;
     width: 100%;
-    height: 6em;
+    height: 96px;
     bottom: 0;
-    left: 0;
 }

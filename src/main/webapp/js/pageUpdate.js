@@ -1,7 +1,7 @@
-/* 
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
+/*
+ * Created By: Ashley Freeman
+ * Original Date: 1/5/17
+ * Last Update: 1/5/17
  */
 
 $('.locBox').click(function(){

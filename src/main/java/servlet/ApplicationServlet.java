@@ -16,7 +16,7 @@ public class ApplicationServlet extends HttpServlet {
 
     protected void processRequest(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
-        String url = "application.jsp";
+        String url = "/application.jsp";
         
         /* needed or just to page? maybe useful for connecting to right job in on admin side? */
         

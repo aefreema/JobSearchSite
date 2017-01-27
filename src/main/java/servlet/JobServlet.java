@@ -16,7 +16,7 @@ public class JobServlet extends HttpServlet {
     
     protected void processRequest(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
-        String url = "jobDetails.jsp";
+        String url = "/jobDetails.jsp";
         
         /* get job details. From xml, database */
         

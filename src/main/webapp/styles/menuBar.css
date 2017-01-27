@@ -1,99 +1,108 @@
 /*
     Created By: Ashley Freeman
     Original Date: 12/28/2016
-    Last Update: 1/6/2017
+    Last Update: 1/27/2017
+
+    Header menu bar styling
  */
+ * {
+     font-family: "Trebuchet MS", Helvetica, sans-serif;
+ }
  
 #logo {
-    float: left; 
-}
-#logo img {
-    width: 10em;
-    height: 3.5em;
+    width: 200px;
+    height: 75px;
 }
  
-#header-bar {
+#headerBar {
+    display: flex;
+    justify-content: space-between;
     background-color: #00A2E8;
-    font-size: 1.5em;
+    font-size: 24px;
 }
-#header-bar ul {
-    position: absolute;
-    margin-left: 35%;
-    padding: 0;
+
+#headerBar ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 85px;
 }
-#header-bar li {
+
+#headerBar li {
     display: inline-block;
-    height: auto;
-    margin: 1.25em;
-    text-align: center;
 }
 
-
-#header-bar li a {
-    display: block;
+#headerBar li a {
+    padding: 10px;
     color: white;
+}
+
+#headerMenu a:hover{
+    background-color: #0170a0;
 }
 
 .accountAccess {
-    box-sizing: border-box;
-    float: right;
-    margin: 1.25em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+    height: 75px;
     color: white;
-    text-align: center;
 }
 
 .accountAccess a {
+    display: inline-block;
+    padding: 10px;
     color: white;
 }
 
-#footerBar {
+.accountAccess a:hover {
+    background-color: #0170a0;
+}
+
+#footerBar {    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
     background-color: black;
 }
 
 #footerMenu {
-    display: inline-block;
-    margin-top: 1em;
-}
-
-#footerBar ul {
-    position: relative;
-    height: 100%;
+    width: 96px;
+    height: inherit;
 }
 
 #footerBar a, p {
     color: lightgray;
-    font-size: 0.625em;
+    font-size: 10px;
 }
 
-#footerBar p {
-    text-align: center;
+#date {
+    display: inline-block;
+    height: inherit;
 }
  
 #contact {
     display: inline-block;
-    float: right;
-    margin-right: 2em;
+    width: 96px;
+    height: inherit;
 }
 
 #contact h3 {
-    font-family: "Trebuchet MS", Helvetica, sans-serif;
     color: #00A2E8;
 }
 
 #contact img {
-    width: 3em;
-    height: 3em;
+    width: 30px;
+    height: 30px;
+    margin-left: 3%;
 }
 
 ul {
-    list-style-type: none;
     margin: 0;
-    padding: 0;
     overflow: hidden;
 }
 
 a {
     text-decoration: none;
-    font-family: "Trebuchet MS", Helvetica, sans-serif;
-    text-align: center;
 }

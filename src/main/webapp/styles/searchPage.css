@@ -1,0 +1,85 @@
+/*
+    Created By: Ashley Freeman
+    Original Date: 12/28/2016
+    Last Update: 1/27/2017
+
+    Styling of page elements and positioning of elements within major containers.
+ */
+ 
+* {
+     font-family: "Trebuchet MS", Helvetica, sans-serif;
+ }
+ 
+body {
+    background-color: azure;
+}
+
+#container {
+    display: flex;
+    justify-content: center;
+}
+
+#searchPage {
+    min-height: inherit;
+    width: 75%;
+    align-items: stretch;
+    background-image: url("../images/office.jpeg");
+}
+
+#searchOverlay {
+    position: relative;
+    width: 100%;
+    height: 80%;
+    margin-top: 50px;
+    background-color: rgba(128, 128, 128, 0.8);
+}
+
+#searchLarge {
+    position: absolute;
+    height: auto;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    padding: 20px;
+    transform: translate(-50%, -50%);
+    background-color: #00A2E8;
+}
+
+#searchLarge h1 {
+    position: relative;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+}
+
+#searchLarge input, #searchLarge button {
+    vertical-align: bottom;
+}
+
+.searchBox {
+    width: 200px;
+    margin: 0px 5px;
+    padding: 10px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+#searchLarge button {
+    display: inline;
+    width: 40px;
+    height: 40px;
+    margin: auto;
+    padding: auto;
+    border: none;
+    background-color: transparent;
+}
+
+#searchLarge button:hover {
+    cursor: pointer;
+}
+
+button img {
+    width: 37px;
+    height: 37px; 
+}

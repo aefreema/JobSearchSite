@@ -1,19 +1,17 @@
 /*
  *Created By: Ashley Freeman
- *Original Date: 1/5/17
- *Last Update: 1/5/17
+ *Original Date: 1/27/2017
+ *Last Update: 1/27/2017
  */
 package servlet;
 
 import java.io.IOException;
 import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletException;
-import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-@WebServlet(name = "ViewProfileServlet", urlPatterns = {"/ViewProfileServlet"})
 public class ProfileServlet extends HttpServlet {
 
     protected void processRequest(HttpServletRequest request, HttpServletResponse response)

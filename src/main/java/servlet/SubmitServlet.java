@@ -1,24 +1,22 @@
 /*
  *Created By: Ashley Freeman
- *Original Date: 1/5/17
- *Last Update: 1/5/17
+ *Original Date: 1/27/2017
+ *Last Update: 1/27/2017
  */
 package servlet;
 
 import java.io.IOException;
 import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletException;
-import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-@WebServlet(name = "SubmitServlet", urlPatterns = {"/SubmitServlet"})
 public class SubmitServlet extends HttpServlet {
 
     protected void processRequest(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
-        String url = "success.jsp";
+        String url = "/success.jsp";
         
         /* Save job submission to both applicants's submitted jobs and poster's list of applicants for job */
         /* Send application confirmation email */
